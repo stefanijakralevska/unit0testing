@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JUnit-Mockito-master.iml" filepath="$PROJECT_DIR$/.idea/JUnit-Mockito-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttd/test.iml" filepath="$PROJECT_DIR$/ttd/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit_testing/unit_testing.iml" filepath="$PROJECT_DIR$/unit_testing/unit_testing.iml" />
+    </modules>
+  </component>
+</project>

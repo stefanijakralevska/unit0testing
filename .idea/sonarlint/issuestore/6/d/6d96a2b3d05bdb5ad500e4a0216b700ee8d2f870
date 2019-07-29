@@ -1,0 +1,6 @@
+
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‚ëô¡þÿÿÿÿ
+†squid:S4144"rUpdate this method so that its implementation is not identical to "studentBHasBecomeBetterInTimeThanA" on line 53.(Þ¿¥
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡þÿÿÿÿ
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äÍüƒþÿÿÿÿ8ÞÝê«Â-
+`squid:S1192"FDefine a constant instead of duplicating this literal "Smith" 6 times.(Üá–ùÿÿÿÿ
