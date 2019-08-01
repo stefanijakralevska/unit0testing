@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 
 public class TimePeriodTest {
 
-    private  TimePeriod timePeriodA;
+    private TimePeriod timePeriodA;
     SimpleDateFormat dateFormat;
     TimePeriod timePeriodB;
 
@@ -42,7 +42,7 @@ public class TimePeriodTest {
 
     @Test
     public void testAinteractB() throws ParseException {
-        timePeriodB = new TimePeriod(dateFormat.parse("01/02/2019"),dateFormat.parse("01/06/2019"));
+        timePeriodB = new TimePeriod(dateFormat.parse("01/02/2019"), dateFormat.parse("01/06/2019"));
         Assert.assertTrue(timePeriodA.overlapsWith(timePeriodB));
     }
 
@@ -55,7 +55,7 @@ public class TimePeriodTest {
 
     @Test
     public void testAendEqualToBstart() throws ParseException {
-        timePeriodB =  new TimePeriod(dateFormat.parse("30/04/2019"),dateFormat.parse("01/06/2019"));
+        timePeriodB = new TimePeriod(dateFormat.parse("30/04/2019"), dateFormat.parse("01/06/2019"));
         Assert.assertTrue(timePeriodA.overlapsWith(timePeriodB));
     }
 
@@ -72,7 +72,6 @@ public class TimePeriodTest {
         Assert.assertFalse(timePeriodA.overlapsWith(timePeriodB));
 
     }
-
 
 
 }

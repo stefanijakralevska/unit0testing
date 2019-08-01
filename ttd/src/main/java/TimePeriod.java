@@ -1,4 +1,5 @@
 import java.util.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -47,7 +48,7 @@ public class TimePeriod {
             return true;
         }
         // testBendEqualToAstart()
-        if(this.start.equals(period.end)) {
+        if (this.start.equals(period.end)) {
             return true;
         }
 
